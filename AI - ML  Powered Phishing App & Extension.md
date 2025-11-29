@@ -1,4 +1,4 @@
-# PhishGuard — ML-Powered Phishing Detector
+# PhishGuard — AI / ML-Powered Phishing Detector (Website & App Extension) 
 
 <img width="200" height="200" alt="phishguard_logo" src="https://github.com/user-attachments/assets/2ffff0c6-8f11-4636-abc9-1edd2b31946f" />
 
