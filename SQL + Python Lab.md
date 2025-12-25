@@ -16,14 +16,6 @@ A compact “Amazon-style” marketplace database with Python scripts for report
 - report3_routines.py # calls stored PROCEDURE + FUNCTION
 - mkt_gui.py # Tkinter GUI: Daily Sales, Top Customers, In-Transit, Inventory
 
-/screenshots # paste your screenshots here
-q1-q6_cli.png
-routines_cli.png
-gui_daily_sales.png
-gui_top_customers.png
-gui_aging.png
-gui_inventory.png
-
 ## Quick start
 1) **Create DB & load data**
 ```sql
@@ -54,7 +46,6 @@ Use host=localhost, user=root, database=amazon_mkt. Password = your local MySQL 
 - Order has 1 Payment and 1 Shipment (MVP)
 - Typical order flow: placed → paid → shipped → delivered
 
-(ERD image goes here)
 
 ## Featured SQL (SIX parameterized queries)
 These are the six queries executed by report3_run.py (each uses host variables):
@@ -65,17 +56,11 @@ These are the six queries executed by report3_run.py (each uses host variables):
 - Avg listing price by category (min_avg_price)
 - Orders with ≥ N lines since date (start_date, min_lines)
 
-Paste your CLI screenshot:
-
-
 ## Stored routines (used in report3_routines.py)
 - Procedure sp_seller_revenue_since(p_start_date DATE, p_min_revenue DECIMAL)
 - Returns each seller’s revenue (SUM of order_item.item_total) on/after the date, filtered by a minimum revenue.
 - Function fn_order_lines_total(p_order_id INT) RETURNS DECIMAL
 - Returns the sum of line totals for a single order.
-
-Paste your CLI screenshot:
-![Routines](screenshots/routines_cli.png)
 
 
 ## GUI
