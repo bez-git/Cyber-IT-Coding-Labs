@@ -1,0 +1,3 @@
+The Mission: Configure the sensor to forward raw logs to a central SIEM (or collector) so they can be analyzed.
+
+Key Skills: Syslog/JSON parsing, Log Ingestion, Data Normalization.
