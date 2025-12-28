@@ -1,0 +1,3 @@
+The Mission: Configuring the FortiGate to explicitly block example.com for a specific host while allowing other traffic.
+
+Key Skills: Object Creation, Firewall Policy Ordering ("Top Down" logic).
